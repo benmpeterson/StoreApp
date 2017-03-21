@@ -10,8 +10,9 @@ body{
 
 #header-name{
     font-size: 40px;
+    font-weight:bold;
     color: green;
-    margin: 0px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
 }
 
 .logo{
@@ -39,7 +40,7 @@ body{
     float: left;
     /*font-size: 12px;*/
     margin: 20px 0px 20px 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 #recent-news{
@@ -54,10 +55,12 @@ body{
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
+    text-align:center;
 }
 
 #recent-news > ul{
     list-style: none;
+    text-align:center;
 }
 
 #recent-news > ul > li {
@@ -93,12 +96,25 @@ body{
     margin: 3px 3px 3px 3px;
     padding: 3px 3px 3px 3px;
     border-radius: 5px;
+    text-align:center;
 }
 
 .product-thumbnail{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
+
+.add-to-cart{
+    text-align: center;
+}
+
+.product-article > p{
+    text-align: center;
+}
+
+/*.add-to-cart p{
+    text-align:center;
+}*/
 
 
 #store_header{
@@ -117,10 +133,12 @@ body{
 }
 
 
-/*footer {
-    width: 100%;
+footer {
+    width: 75%;
     background-color: chocolate;
-    margin: 20px 0px 20px 0px;
-    padding: 20px 0px 0px 0px;
     border-radius: 5px;    
-}*/
+    position:fixed;
+    left:0px;
+    bottom:10px;
+    height:100px;
+}
