@@ -44,7 +44,7 @@ body{
 
 #recent-news{
     float:right;
-    width: 300;
+    width: 300px;
     margin: 20px 0px 20px 0px;
 }
 
@@ -55,6 +55,51 @@ body{
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+#recent-news > ul{
+    list-style: none;
+}
+
+#recent-news > ul > li {
+    margin: 0px 0px 3px 0px;
+}
+
+#main{
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+
+#donut-header{
+    color: green;
+    font-size: 15px;
+    margin: 0px 0px 3px 0px;
+    height: 25px;
+}
+
+.products{
+    width: 25%;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+
+.product-article {
+    height: 150px;
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+}
+
+.product-thumbnail{
+    width: 35px;
+    height: 35px;
+}
+
 
 #store_header{
     color: green;
